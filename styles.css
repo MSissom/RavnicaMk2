@@ -1,0 +1,104 @@
+@import url("https://www.dafont.com/streamster.font");
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+    
+} 
+a:hover{
+    text-decoration: none;
+    color:hotpink
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 30px;
+  font: 90px "streamster", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.block-1,
+.block-3 {
+  height: 900px;
+  padding: 70px 20px;
+  background-size: cover;
+  background-image: url("img/Godless\ Shrine.jpg");
+  box-sizing: border-box;
+  background-position: center;
+}
+.block-2 {
+  background: url("img/Stomping\ Grounds.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 900px;
+  background-position: center;
+  border-bottom: 10px solid black;
+}
+.block-3 {
+  background-image: url("img/Sacred\ Forge.jpg");
+}
+
+.card{
+    opacity: .80;
+}
+nav {
+    position:fixed;
+    background: black;
+    bottom:0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+  h3{
+      color: white;
+      text-align: center;
+  }
+  h1,
+  h2 {
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    font: 90px "streamster", sans-serif;
+  }
+  h1:hover{
+    color:hotpink
+  }
+  
+  .mb_parallax_container_one {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/Overgrown\ Tomb.jpg);
+    border-bottom: 10px solid black;
+    border-top:10px solid black;
+    padding-top: 20vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .mb_parallax_overlay {
+    height: 70vh;
+    width: 70vw;
+    margin: auto;
+    background-color: black;
+    opacity: 0.9;
+  }
+  
+  #mb_parallax_one {
+    background-image: url(img/Overgrown\ Tomb.jpg);
+  }
+  
+  #mb_parallax_two {
+    background-image: url(https://picsum.photos/800/300/);
+  }
+  
+  #mb_parallax_three {
+    background-image: url(https://picsum.photos/700/300/);
+  }
+  
