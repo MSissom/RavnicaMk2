@@ -41,9 +41,40 @@ a:hover{
 .block-3 {
   background-image: url("img/Sacred\ Forge.jpg");
 }
+.accordionStyler{
+    text-align:center;
+}
+
+#collapseOne{
+    font-size: large;
+}
+
+.tni{
+    opacity: 1;
+}
+
+.btn{
+    color: white;
+    font: "streamster", sans-serif;
+    font-size: large;
+}
+
+.btn:hover {
+    text-decoration: none;
+    color:hotpink
+}
+
+button {
+    font-size: 50px;
+}
+
+.card-body{
+    color: white
+}
 
 .card{
     opacity: .80;
+    background-color: black;
 }
 nav {
     position:fixed;
