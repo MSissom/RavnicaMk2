@@ -22,8 +22,7 @@ a:hover{
   color: #fff;
   text-align: center;
 }
-.block-1,
-.block-3 {
+.block-1 {
   height: 900px;
   padding: 70px 20px;
   background-size: cover;
@@ -40,6 +39,11 @@ a:hover{
 }
 .block-3 {
   background-image: url("img/Sacred\ Forge.jpg");
+  height: 900px;
+  padding: 70px 20px;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
 }
 .accordionStyler{
     text-align:center;
@@ -92,7 +96,6 @@ nav {
   }
   h1,
   h2 {
-    padding-top: 10vh;
     color: white;
     text-align: center;
     font: 90px "streamster", sans-serif;
