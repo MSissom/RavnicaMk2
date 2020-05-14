@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
 </head>
 
@@ -26,149 +26,221 @@
     </div>
 
     <div class="mb_parallax_container_one">
-        <div class="mb_parallax_overlay" id="#mb_parallax_one">
-            <h3>Located in Precinct 7 of District 10, Ravnica Ecumenopolis Mall is a one stop shop for all your consumer product needs.</h3>
-        </div>
-    </div>
-
-
-
-    <div class="block-2">
-        <h1 id="shopstitle">Visit Beautiful Shops Like</h1>
-        <div class="container" style="text-align:center;" id="accordionExample">
-            <div class="accordion" >
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse"
-                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne manymore">
-                                MindWave Precision Technologies
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            <div>Let the experienced neuromancers of MPI outfit you for any and all psionic needs.
-                                Whether you're an experienced psyker in need of powerful tactical neural implants or
-                                simply in need of memory alteration, MindWave Precision Technologies is right for you!
+        <div class="mb_parallax_overlay container" id="#mb_parallax_one">
+            <h3>Located in Precinct 7 of District 10, Ravnica Ecumenopolis Mall is a one stop shop for all your consumer
+                product and service needs.</h3>
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-md-8 mx-auto">
+                        <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel"
+                            data-pause="hover">
+                            <ol class="carousel-indicators">
+                                <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#homeCarousel" data-slide-to="1"></li>
+                                <li data-target="#homeCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 v-100" src="img/Hallowed 3.jpg" alt="Hallowed Fountain" />
+                                    <div class="carousel-caption">
+                                        <h3>Hallowed Fountain Central Plaza</h3>
+                                        <p class="d-none d-sm-block">A place to relax, if you have the proper permit</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 v-100" src="img/LuxurySuite.jpg" alt="Luxury Suites" />
+                                    <div class="carousel-caption">
+                                        <h3>Blood Crypt Luxury Suites</h3>
+                                        <p class="d-block w-100 v-100 d-sm-block"> The view is rivaled only by the
+                                            decadence
+                                            and decor.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 v-100" src="img/Temple Garden.jpg" alt="Temple Garden" />
+                                    <div class="carousel-caption">
+                                        <h3>Temple Garden Agricommercial Center</h3>
+                                        <p class="d-none d-sm-block">Order leads to Beauty. Beauty leads to Commerce.
+                                            Commerce leads to Order. Ravnica.
+                                        </p>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                                <button class="btn btn-danger" id="carouselButton">
+                                    <i class="fa fa-pause"></i>
+                                </button>
                             </div>
-                            <img class="img-fluid" src="img/TacticalNeuralImplant.gif">
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo manymore">
-                                Planar Industries Outlet Store #84
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                           Although commonly assumed to sell only to particularly militaristic Guildmasters, Paruns, Speakers and the like, Planar Industries is proud to offer the Ravnican public consumer grade versions of state of the art self defense, biotechnological and transplanar weapon and general utility platforms.
-                        </div>
-                        <img class="img-fluid" src="img/PlanarIndustriesLoadout.gif">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree manymore">
-                                Luxury Elite Ltd.
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                        data-parent="#accordionExample">
-                        <div class="card-body">
-                            Aesthetic perfection. Total splendor. Unlimited pleasures. Utopian abundance. These and many others are the lifestyle values we at Luxury Elite Ltd. strive to present every paying customer with for as long as their credit lines can sustain it. You deserve it.
-                        </div>
-                        <img class="img-fluid" src="img/LuxuryElite.jpg">
-                    </div>
                 </div>
             </div>
-            <h1 id="manymore">And Many More!</h1>
         </div>
-        
-    </div>
 
-    <div class="block-3">
-        <div id="contactus">
-            <h1>Speak Your Mind</h1>
+
+
+        <div class="block-2">
+            <h1 id="shopstitle">Visit Beautiful Shops Like</h1>
+            <div class="container" style="text-align:center;" id="accordionExample">
+                <div class="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne manymore">
+                                    MindWave Precision Technologies
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div>Let the experienced neuromancers of MPI outfit you for any and all psionic needs.
+                                    Whether you're an experienced psyker in need of powerful tactical neural implants or
+                                    simply in need of memory alteration, MindWave Precision Technologies is right for
+                                    you!
+                                </div>
+                                <img class="img-fluid" src="img/TacticalNeuralImplant.gif">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo manymore">
+                                    Planar Industries Outlet Store #84
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                Although commonly assumed to sell only to particularly militaristic Guildmasters,
+                                Paruns, Speakers and the like, Planar Industries is proud to offer the Ravnican public
+                                consumer grade versions of state of the art self defense, biotechnological and
+                                transplanar weapon and general utility platforms.
+                            </div>
+                            <img class="img-fluid" src="img/PlanarIndustriesLoadout.gif">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree manymore">
+                                    Luxury Elite Ltd.
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                Aesthetic perfection. Total splendor. Unlimited pleasures. Utopian abundance. These and
+                                many others are the lifestyle values we at Luxury Elite Ltd. strive to present every
+                                paying customer with for as long as their credit lines can sustain it. You deserve it.
+                            </div>
+                            <img class="img-fluid" src="img/LuxuryElite.jpg">
+                        </div>
+                    </div>
+                </div>
+                <h1 id="manymore">And Many More!</h1>
+            </div>
+
+        </div>
+
+        <div class="block-3">
+            <div id="contactus">
+                <h1>Speak Your Mind</h1>
                 <div class="mb_parallax_overlay">
+                    <div class="container">
                     <form>
                         <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                          </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
                         </div>
                         <div class="form-group">
-                          <label for="inputAddress">Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                         </div>
                         <div class="form-group">
-                          <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
                         </div>
                         <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                          </div>
-                          <div class="form-group col-md-4">
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select>
-                          </div>
-                          <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                          </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputDistrict">District</label>
+                                <input type="text" class="form-control" id="inputDistrict">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputGuild">Guild</label>
+                                <select id="inputGuild" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>Azorius</option>
+                                    <option>Izzet</option>
+                                    <option>Golgari</option>
+                                    <option>Simic</option>
+                                    <option>Boros</option>
+                                    <option>Dimir</option>
+                                    <option>Gruul</option>
+                                    <option>Selesnya</option>
+                                    <option>Rakdos</option>
+                                    <option>Orzhov</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="form-group">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                              Check me out
-                            </label>
-                          </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Remember Me
+                                </label>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Sign in</button>
-                      </form>
+                    </form>
+                    </div>
                 </div>
-        </div>
-
-    </div>
-
-    <nav class="navbar-expand-sm">
-        <div class="container">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#tippytop"> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="##mb_parallax_one">Content</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#shopstitle">Shops</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contactus"> Contact</a></li>
-                </ul>
             </div>
-        </div>
-    </nav>
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+        </div>
+
+        <nav class="navbar-expand-sm">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#tippytop"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="##mb_parallax_one">Content</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#shopstitle">Shops</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contactus"> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ a:hover{
 }
 .block-3 {
   background-image: url("img/Sacred\ Forge.jpg");
-  height: 900px;
+  min-height: 900px;
   padding: 70px 20px;
   background-size: cover;
   box-sizing: border-box;
@@ -57,7 +57,7 @@ a:hover{
     opacity: 1;
 }
 
-.btn{
+.btn, form{
     color: white;
     font: "streamster", sans-serif;
     font-size: large;
@@ -104,13 +104,24 @@ nav {
     color:hotpink
   }
   
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+    
+
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
   .mb_parallax_container_one {
     height: 100vh;
     width: 100vw;
     background-image: url(img/Overgrown\ Tomb.jpg);
     border-bottom: 10px solid black;
-    border-top:10px solid black;
-    padding-top: 20vh;
+    border-top: 10px solid black;
+    padding-top: 10vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
